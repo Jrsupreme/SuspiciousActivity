@@ -37,6 +37,6 @@ This is a repo for a bash script that will be run every day at midnight in order
  - It then clears the previous output log to ensure a fresh start.
  - It reads the auth_log.log file line by line, checking each line for suspicious keywords.
  - If a line contains a keyword, it appends the line to suspicious_activity.log.
- - The script ensures that each line is processed efficiently, making it suitable for automation via a daily cron job.
+ - The script ensures that each line is processed efficiently, so that it can be run daily with very little resources.
 
   
