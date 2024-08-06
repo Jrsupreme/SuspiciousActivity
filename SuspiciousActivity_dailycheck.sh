@@ -26,5 +26,5 @@ do
     done
 done < "$log_file" #to specify that the while loop reads from "$log_file".
 
-# Put / log the results into the designated file
+# Let the user know results into have been sent to the designated file
 echo "Suspicious activity log created at $output_file"
