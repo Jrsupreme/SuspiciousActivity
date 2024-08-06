@@ -23,7 +23,7 @@ This is a repo for a bash script that will be run every day at midnight in order
     - aka the abyss.
     - This is where you send anyhting you don't want in this case I wanted to use the tee command but did not want the output that displays on the terminal to be displayed so using > /dev/null makes the output that was supposed to go to the terminal to get sent into the abyss.
    ## Issues/ trouble shooting
-    *When I first ran the script did not run and game this error
+    *When I first ran the script did not run and gave me this error
    ![Screenshot (68)](https://github.com/user-attachments/assets/e44745d2-eff0-44a6-943b-125e4d5f0db9)
    - After carefully looking trough the script I found what may be the cause.
       ```
