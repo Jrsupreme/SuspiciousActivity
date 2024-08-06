@@ -28,7 +28,7 @@ This is a repo for a bash script that will be run every day at midnight in order
    - After carefully looking trough the script I found what may be the cause.
       ```
        if [ "$line" == *"$keyword"* ]]
-     #This command is missing a parentheses between the if and line
+     #This command is missing a squarebracket between the if and line
       ```
   * That issue is now fixed and my script works
 
